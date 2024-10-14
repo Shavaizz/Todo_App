@@ -10,6 +10,10 @@ button{
 a{
   text-decoration: none;
 }
+input{
+  text-decoration: none;
+  border:2px solid white;
+}
 h1{
   font-size: 40px;
 }
@@ -47,4 +51,26 @@ Header Section
   outline: 2px white solid;
   background-color:#5E5F5F ;
   padding: 5px;
+}
+
+/*
+.Todo List Section
+*/
+.TodolistwWrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#addButton{
+  margin-left:5px;
+}
+
+/*
+Tasks View
+*/
+.Tasksview{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }

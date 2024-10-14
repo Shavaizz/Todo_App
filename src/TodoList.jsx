@@ -27,6 +27,7 @@ export default function TodoList(){
     }
     return(
         <>
+        <div className="wrapperall">
         <section className="TodolistwWrapper">
             <input 
                 placeholder="Add todo"
@@ -60,6 +61,7 @@ export default function TodoList(){
                 })}
             </div>
         </section>
+        </div>
 
         </>
     )
