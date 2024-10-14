@@ -4,7 +4,7 @@ export default function Header(){
             <section className="logoAndHeader">
                 <div id="logo">
                     <h1> 
-                        Quiz App
+                        Todo List App
                     </h1>
                 </div>
                 <div id="headerlink">
