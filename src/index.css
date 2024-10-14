@@ -1,0 +1,50 @@
+*{
+  font-family: "Roboto", sans-serif;
+  background-color:#32373B ;
+  color: #E0E0E0;
+}
+button{
+  text-decoration: none;
+  border: 2px white solid ;
+}
+a{
+  text-decoration: none;
+}
+h1{
+  font-size: 40px;
+}
+
+/*
+Header Section
+*/
+
+.logoAndHeader{
+  margin-bottom: 50px;
+}
+
+#headerlink{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#githubico{
+  width: 50px;
+  height: 50px;
+  padding-right: 10px;
+}
+.logoAndHeader{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+}
+#linkwrapper{
+  display: flex;
+  flex-direction: row;
+}
+#linkwrapper p{
+  outline: 2px white solid;
+  background-color:#5E5F5F ;
+  padding: 5px;
+}
